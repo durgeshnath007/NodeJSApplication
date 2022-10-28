@@ -2,7 +2,7 @@ const app = require('express')();
 const PORT = 8080;
 
 app.get('/',(req,res)=> {
-    res.status(200).sendFile(__dirname+'/Pages/index.html');
+    res.status(200).sendFile(__dirname+'/Website/index.html');
 });
 
 app.listen(
